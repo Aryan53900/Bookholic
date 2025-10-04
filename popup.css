@@ -1,0 +1,53 @@
+body {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 65%, #f093fb 100%);
+}
+
+.container {
+  padding: 20px;
+  color: #6a00f2;
+  min-height: 180px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-size: 22px;
+  color: #aa2983;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.streak-display {
+  background: rgba(255,255,255, 0.70);
+  border-radius: 15px;
+  box-shadow: 0 2px 12px 0 rgba(202, 97, 255, 0.11);
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.streak-number {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 9px;
+  background: linear-gradient(90deg,#8ec5fc,#e0c3fc,#f093fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 15px;
+  color: #8c34c2;
+  margin: 0;
+}
+
+@media (max-width:320px){
+  .container {padding:12px;}
+  .streak-number {font-size:32px;}
+  .streak-display {padding:16px;}
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Time Streak</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⏱️ Today's Streak</h1>
+    <input type="text" id="urlInput" placeholder="Enter website URL" style="width:93%;padding:8px;border-radius:8px;border:1px solid #d4a2f7;margin-bottom:10px;">
+    <button id="addUrlBtn" style="width:93%;margin-bottom:18px;padding:10px 0;background:#d4a2f7;color:white;border:none;border-radius:8px;font-size:15px;cursor:pointer;">Add Target Website</button>
+    <div class="streak-display">
+      <div class="streak-number" id="todayTime">0 min</div>
+      <p id="urlLabel" style="font-size:13px;margin:0 0 7px 0;"></p>
+      <p>Time spent today</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
